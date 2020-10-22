@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://iszhangpf.github.io</id>
     <title>zhangpf的博客</title>
-    <updated>2020-10-22T06:55:33.339Z</updated>
+    <updated>2020-10-22T07:13:19.436Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://iszhangpf.github.io"/>
     <link rel="self" href="https://iszhangpf.github.io/atom.xml"/>
@@ -10,6 +10,15 @@
     <logo>https://iszhangpf.github.io/images/avatar.png</logo>
     <icon>https://iszhangpf.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, zhangpf的博客</rights>
+    <entry>
+        <title type="html"><![CDATA[欢迎项日升！！！]]></title>
+        <id>https://iszhangpf.github.io/post/huan-ying-xiang-ri-sheng/</id>
+        <link href="https://iszhangpf.github.io/post/huan-ying-xiang-ri-sheng/">
+        </link>
+        <updated>2020-10-22T07:12:42.000Z</updated>
+        <content type="html"><![CDATA[<p>欢迎项日升！！！欢迎项日升！！！欢迎项日升！！！欢迎项日升！！！欢迎项日升！！！欢迎项日升！！！欢迎项日升！！！欢迎项日升！！！欢迎项日升！！！欢迎项日升！！！欢迎项日升！！！欢迎项日升！！！欢迎项日升！！！欢迎项日升！！！欢迎项日升！！！欢迎项日升！！！欢迎项日升！！！欢迎项日升！！！<img src="https://iszhangpf.github.io/post-images/1603350790565.jpg" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[这是测试！！！]]></title>
         <id>https://iszhangpf.github.io/post/zhe-shi-ce-shi/</id>

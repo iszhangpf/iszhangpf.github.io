@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>标签列表 | zhangpf的博客</title>
+<title>欢迎项日升！！！ | zhangpf的博客</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -12,13 +12,20 @@
 <link rel="stylesheet" href="https://iszhangpf.github.io/styles/main.css">
 
 
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
 
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
 
-    <meta name="description" content="加油！打工人！">
+    <meta name="description" content="欢迎项日升！！！欢迎项日升！！！欢迎项日升！！！欢迎项日升！！！欢迎项日升！！！欢迎项日升！！！欢迎项日升！！！欢迎项日升！！！欢迎项日升！！！欢迎项日升！！！欢迎项日升！！！欢迎项日升！！！欢迎项日升！！！欢迎项日升！！！欢迎项日升！！！..." />
+    <meta name="keywords" content="" />
   </head>
   <body>
     <div id="app" class="main">
@@ -88,12 +95,36 @@
 
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
-          <h2 class="tag-list-title">标签列表</h2>
-          <div class="tags-container">
+          <div class="post-detail">
+            <h2 class="post-title">欢迎项日升！！！</h2>
+            <div class="post-date">2020-10-22</div>
             
-              <a class="tag" href="https://iszhangpf.github.io/tag/Bp9l9aojN/">Gridea</a>
+            <div class="post-content" v-pre>
+              <p>欢迎项日升！！！欢迎项日升！！！欢迎项日升！！！欢迎项日升！！！欢迎项日升！！！欢迎项日升！！！欢迎项日升！！！欢迎项日升！！！欢迎项日升！！！欢迎项日升！！！欢迎项日升！！！欢迎项日升！！！欢迎项日升！！！欢迎项日升！！！欢迎项日升！！！欢迎项日升！！！欢迎项日升！！！欢迎项日升！！！<img src="https://iszhangpf.github.io/post-images/1603350790565.jpg" alt="" loading="lazy"></p>
+
+            </div>
             
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://iszhangpf.github.io/post/zhe-shi-ce-shi/">
+                  <h3 class="post-title">
+                    这是测试！！！
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
+              
+            
+
           </div>
+
         </div>
       </div>
     </div>
@@ -113,6 +144,29 @@ var app = new Vue({
 </script>
 
 
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '4f2e537e280306bd3f94',
+        clientSecret: 'f2d45a901d7a6dab3b03cbf549395d550e0c0517',
+        repo: 'iszhangpf.github.io',
+        owner: 'iszhangpf',
+        admin: ['iszhangpf'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
 
 
 
