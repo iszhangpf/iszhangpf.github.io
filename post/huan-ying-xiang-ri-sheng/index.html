@@ -8,15 +8,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://iszhangpf.github.io/favicon.ico?v=1603350793236">
+<link rel="shortcut icon" href="https://iszhangpf.github.io/favicon.ico?v=1603419451923">
 <link rel="stylesheet" href="https://iszhangpf.github.io/styles/main.css">
 
-
-  
-    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
-  
-
-  
 
 
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -34,7 +28,7 @@
   <div class="top-container" data-aos="fade-right">
     <div class="top-header-container">
       <a class="site-title-container" href="https://iszhangpf.github.io">
-        <img src="https://iszhangpf.github.io/images/avatar.png?v=1603350793236" class="site-logo">
+        <img src="https://iszhangpf.github.io/images/avatar.png?v=1603419451923" class="site-logo">
         <h1 class="site-title">zhangpf的博客</h1>
       </a>
       <div class="menu-btn" @click="menuVisible = !menuVisible">
@@ -116,12 +110,6 @@
             
 
             
-              
-                <div id="gitalk-container" data-aos="fade-in"></div>
-              
-
-              
-            
 
           </div>
 
@@ -144,29 +132,6 @@ var app = new Vue({
 </script>
 
 
-
-
-
-  
-    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-    <script>
-
-      var gitalk = new Gitalk({
-        clientID: '4f2e537e280306bd3f94',
-        clientSecret: 'f2d45a901d7a6dab3b03cbf549395d550e0c0517',
-        repo: 'iszhangpf.github.io',
-        owner: 'iszhangpf',
-        admin: ['iszhangpf'],
-        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
-        distractionFreeMode: false  // Facebook-like distraction free mode
-      })
-
-      gitalk.render('gitalk-container')
-
-    </script>
-  
-
-  
 
 
 
